@@ -13,8 +13,6 @@
     justify-content: center;
   }
   
-  
-  
   /* left side */
   .a-left{
       gap: 2rem;
@@ -22,7 +20,11 @@
   
   .a-left > img {
     width: 4rem;
-    height: 4rem;
+    height: 4rem; 
+  }
+
+  .a-right{
+    min-width: 300px;
   }
   
   .Webname > h1 {
@@ -56,6 +58,7 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    width: 100%;
   }
   
   .infoInput{
